@@ -2,7 +2,7 @@ name: test-hyper-fetch
 dependencies:
   - python=3.10
   - pip=22.2.2
-  - swig
+  - swig=4.0.2
   - pip:
-    - box2d-py
-    - hyperfetch
+    - box2d-py==2.3.8
+    - hyperfetch==1.0.16
